@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegistrationWithAllValidData(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="ABC"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="sanjiv.kesale@outlook.com"/>
+    <parameter name="expectedTitle" value="Verify Your Email Address - LambdaTest"/>
+    <parameter name="passwordString" value="dfhttgd53%$"/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithAllValidData(failed) -->
+  <test thread-count="5" name="RegistrationWithoutCompanyName(failed)">
+    <parameter name="org_nameString" value=""/>
+    <parameter name="nameString" value="ABC"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/register"/>
+    <parameter name="emailString" value="sanjivanikesale@outlook.com"/>
+    <parameter name="expectedTitle" value="Verify Your Email Address - LambdaTest"/>
+    <parameter name="passwordString" value="dfaaaffhgd53%$"/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithoutCompanyName(failed) -->
+  <test thread-count="5" name="RegistrationWithoutName(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value=""/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="sanjivani.kesale@outlook.com"/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value="dfhgd53%$"/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithoutName(failed) -->
+  <test thread-count="5" name="RegistrationWithoutEmailID(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="XYZ"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value=""/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value="dfhgd53%$"/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithoutEmailID(failed) -->
+  <test thread-count="5" name="RegistrationWithRegisteredEmailID(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="XYZ"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="sanjivani@gmail.com"/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value="dfhgd53%$"/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithRegisteredEmailID(failed) -->
+  <test thread-count="5" name="RegistrationWithoutPassword(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="XYZ"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="qqq@gmail.com"/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value=""/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithoutPassword(failed) -->
+  <test thread-count="5" name="RegistrationWithInvalidPassword(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="XYZ"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="qqq@gmail.com"/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value="A"/>
+    <parameter name="phoneString" value="1234567890"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithInvalidPassword(failed) -->
+  <test thread-count="5" name="RegistrationWithoutPhone(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="XYZ"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="qqsq@gmail.com"/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value="A"/>
+    <parameter name="phoneString" value=""/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithoutPhone(failed) -->
+  <test thread-count="5" name="RegistrationWithInvalidPhone(failed)">
+    <parameter name="org_nameString" value="Company"/>
+    <parameter name="nameString" value="XYZ"/>
+    <parameter name="expectedURL" value="https://accounts.lambdatest.com/email/verify"/>
+    <parameter name="emailString" value="qqsq@gmail.com"/>
+    <parameter name="expectedTitle" value="Sign up for free | Cross Browser Testing Tool | LambdaTest - LambdaTest"/>
+    <parameter name="passwordString" value="A"/>
+    <parameter name="phoneString" value="65"/>
+    <classes>
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <methods>
+          <include name="validRegistrationTest"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </classes>
+  </test> <!-- RegistrationWithInvalidPhone(failed) -->
+</suite> <!-- Failed suite [Demo] -->

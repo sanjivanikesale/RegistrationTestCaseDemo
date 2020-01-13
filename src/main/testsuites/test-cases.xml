@@ -1,0 +1,110 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegistrationTestSuite"  verbose="1">
+
+	<test name="RegistrationWithAllValidFields-1">
+		<parameter name="fnameString" value="ABCDE"></parameter>
+		<parameter name="lnameString" value="EFDSCX"></parameter>
+		<parameter name="emailString" value="sanjivani1234@yahoo.com"></parameter>
+		<parameter name="passwordString" value="!@#123QWE"></parameter>
+		<parameter name="repasswordString" value="!@#123QWE"></parameter>
+		<parameter name="phonestring" value="1234567890"></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/success"></parameter>
+		<parameter name="expectedTitle" value="Your Account Has Been Created!"></parameter>
+		<parameter name="xpathvalue" value=""></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	<test name="RegistrationWithoutFirstName-2">
+		<parameter name="fnameString" value=""></parameter>
+		<parameter name="lnameString" value="EFDSCX"></parameter>
+		<parameter name="emailString" value="abcd@yahoo.com"></parameter>
+		<parameter name="passwordString" value="!@#123QWE"></parameter>
+		<parameter name="repasswordString" value="!@#123QWE"></parameter>
+		<parameter name="phonestring" value="1234567890"></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/register"></parameter>
+		<parameter name="expectedTitle" value="First Name must be between 1 and 32 characters!"></parameter>
+		<parameter name="xpathvalue" value='//*[@id="account"]/div[2]/div/div'></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	<test name="RegistrationWithoutLastName-3">
+		<parameter name="fnameString" value="EFDSCX"></parameter>
+		<parameter name="lnameString" value=""></parameter>
+		<parameter name="emailString" value="abcd@yahoo.com"></parameter>
+		<parameter name="passwordString" value="!@#123QWE"></parameter>
+		<parameter name="repasswordString" value="!@#123QWE"></parameter>
+		<parameter name="phonestring" value="1234567890"></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/register"></parameter>
+		<parameter name="expectedTitle" value="Last Name must be between 1 and 32 characters!"></parameter>
+		<parameter name="xpathvalue" value='//*[@id="account"]/div[3]/div/div'></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	<test name="RegistrationWithoutEmail-4">
+		<parameter name="fnameString" value="EFDSCX"></parameter>
+		<parameter name="lnameString" value="EFDSCX"></parameter>
+		<parameter name="emailString" value=""></parameter>
+		<parameter name="passwordString" value="!@#123QWE"></parameter>
+		<parameter name="repasswordString" value="!@#123QWE"></parameter>
+		<parameter name="phonestring" value="1234567890"></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/register"></parameter>
+		<parameter name="expectedTitle" value="E-Mail Address does not appear to be valid!"></parameter>
+		<parameter name="xpathvalue" value='//*[@id="account"]/div[4]/div/div'></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	<test name="RegistrationWithoutPhone-5">
+		<parameter name="fnameString" value="EFDSCX"></parameter>
+		<parameter name="lnameString" value="EFDSCX"></parameter>
+		<parameter name="emailString" value="abcd@yahoo.com"></parameter>
+		<parameter name="passwordString" value="!@#123QWE"></parameter>
+		<parameter name="repasswordString" value="!@#123QWE"></parameter>
+		<parameter name="phonestring" value=""></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/register"></parameter>
+		<parameter name="expectedTitle" value="Telephone must be between 3 and 32 characters!"></parameter>
+		<parameter name="xpathvalue" value='//*[@id="account"]/div[5]/div/div'></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	<test name="RegistrationWithoutPassword-6">
+		<parameter name="fnameString" value="EFDSCX"></parameter>
+		<parameter name="lnameString" value="EFDSCX"></parameter>
+		<parameter name="emailString" value="abcd@yahoo.com"></parameter>
+		<parameter name="passwordString" value=""></parameter>
+		<parameter name="repasswordString" value="!@#123QWE"></parameter>
+		<parameter name="phonestring" value="1234567890"></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/register"></parameter>
+		<parameter name="expectedTitle" value="Password must be between 4 and 20 characters!"></parameter>
+		<parameter name="xpathvalue" value='//*[@id="content"]/form/fieldset[2]/div[1]/div/div'></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	<test name="RegistrationWithoutReenteringPassword-7">
+		<parameter name="fnameString" value="EFDSCX"></parameter>
+		<parameter name="lnameString" value="EFDSCX"></parameter>
+		<parameter name="emailString" value="abcd@yahoo.com"></parameter>
+		<parameter name="passwordString" value="!@#123QWE"></parameter>
+		<parameter name="repasswordString" value=""></parameter>
+		<parameter name="phonestring" value="1234567890"></parameter>
+		<parameter name="expectedURL" value="http://tutorialsninja.com/demo/index.php?route=account/register"></parameter>
+		<parameter name="expectedTitle" value="Password confirmation does not match password!"></parameter>
+		<parameter name="xpathvalue" value='//*[@id="content"]/form/fieldset[2]/div[2]/div/div'></parameter>
+		<classes>
+			<class name="webAutomation.RegistrationTest.Register.Demo"></class>
+		</classes>
+	</test>
+	
+	</suite>

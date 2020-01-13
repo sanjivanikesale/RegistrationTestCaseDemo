@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-07T17:45:49 IST" name="RegistrationTestSuite" finished-at="2020-01-07T17:47:14 IST" duration-ms="84370">
+    <groups>
+    </groups>
+    <test started-at="2020-01-07T17:45:49 IST" name="RegistrationWithAllValidFields-1" finished-at="2020-01-07T17:46:04 IST" duration-ms="14703">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@23529fee]" started-at="2020-01-07T17:45:50 IST" name="openBrowser" finished-at="2020-01-07T17:46:01 IST" duration-ms="11930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@432034a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@23529fee]" started-at="2020-01-07T17:46:01 IST" name="validRegistrationTest" finished-at="2020-01-07T17:46:03 IST" duration-ms="1862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCDE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sanjivani1234@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/success]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Your Account Has Been Created!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@23529fee]" started-at="2020-01-07T17:46:03 IST" name="tearDown" finished-at="2020-01-07T17:46:04 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithAllValidFields-1 -->
+    <test started-at="2020-01-07T17:46:04 IST" name="RegistrationWithoutFirstName-2" finished-at="2020-01-07T17:46:18 IST" duration-ms="13558">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@309e345f]" started-at="2020-01-07T17:46:04 IST" name="openBrowser" finished-at="2020-01-07T17:46:15 IST" duration-ms="11125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78de58ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@309e345f]" started-at="2020-01-07T17:46:15 IST" name="validRegistrationTest" finished-at="2020-01-07T17:46:17 IST" duration-ms="1626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[First Name must be between 1 and 32 characters!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[//*[@id="account"]/div[2]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@309e345f]" started-at="2020-01-07T17:46:17 IST" name="tearDown" finished-at="2020-01-07T17:46:18 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithoutFirstName-2 -->
+    <test started-at="2020-01-07T17:46:18 IST" name="RegistrationWithoutLastName-3" finished-at="2020-01-07T17:46:32 IST" duration-ms="14616">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@6b26e945]" started-at="2020-01-07T17:46:18 IST" name="openBrowser" finished-at="2020-01-07T17:46:30 IST" duration-ms="12264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60e5272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@6b26e945]" started-at="2020-01-07T17:46:30 IST" name="validRegistrationTest" finished-at="2020-01-07T17:46:32 IST" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Last Name must be between 1 and 32 characters!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[//*[@id="account"]/div[3]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@6b26e945]" started-at="2020-01-07T17:46:32 IST" name="tearDown" finished-at="2020-01-07T17:46:32 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithoutLastName-3 -->
+    <test started-at="2020-01-07T17:46:32 IST" name="RegistrationWithoutEmail-4" finished-at="2020-01-07T17:46:42 IST" duration-ms="9962">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@2f112965]" started-at="2020-01-07T17:46:32 IST" name="openBrowser" finished-at="2020-01-07T17:46:40 IST" duration-ms="7554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d755813]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@2f112965]" started-at="2020-01-07T17:46:40 IST" name="validRegistrationTest" finished-at="2020-01-07T17:46:42 IST" duration-ms="1601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[E-Mail Address does not appear to be valid!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[//*[@id="account"]/div[4]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@2f112965]" started-at="2020-01-07T17:46:42 IST" name="tearDown" finished-at="2020-01-07T17:46:42 IST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithoutEmail-4 -->
+    <test started-at="2020-01-07T17:46:42 IST" name="RegistrationWithoutPhone-5" finished-at="2020-01-07T17:46:54 IST" duration-ms="11356">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@419c5f1a]" started-at="2020-01-07T17:46:42 IST" name="openBrowser" finished-at="2020-01-07T17:46:51 IST" duration-ms="9016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@69c93ca4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@419c5f1a]" started-at="2020-01-07T17:46:51 IST" name="validRegistrationTest" finished-at="2020-01-07T17:46:53 IST" duration-ms="1544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Telephone must be between 3 and 32 characters!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[//*[@id="account"]/div[5]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@419c5f1a]" started-at="2020-01-07T17:46:53 IST" name="tearDown" finished-at="2020-01-07T17:46:54 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithoutPhone-5 -->
+    <test started-at="2020-01-07T17:46:54 IST" name="RegistrationWithoutPassword-6" finished-at="2020-01-07T17:47:04 IST" duration-ms="9829">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@159f197]" started-at="2020-01-07T17:46:54 IST" name="openBrowser" finished-at="2020-01-07T17:47:01 IST" duration-ms="7422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@63da207f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@159f197]" started-at="2020-01-07T17:47:01 IST" name="validRegistrationTest" finished-at="2020-01-07T17:47:03 IST" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Password must be between 4 and 20 characters!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[//*[@id="content"]/form/fieldset[2]/div[1]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@159f197]" started-at="2020-01-07T17:47:03 IST" name="tearDown" finished-at="2020-01-07T17:47:04 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithoutPassword-6 -->
+    <test started-at="2020-01-07T17:47:04 IST" name="RegistrationWithoutReenteringPassword-7" finished-at="2020-01-07T17:47:14 IST" duration-ms="10168">
+      <class name="webAutomation.RegistrationTest.Register.Demo">
+        <test-method is-config="true" signature="openBrowser(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@7ee955a8]" started-at="2020-01-07T17:47:04 IST" name="openBrowser" finished-at="2020-01-07T17:47:11 IST" duration-ms="7616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.RegistrationTest.Register.Demo.validRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@173373b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@7ee955a8]" started-at="2020-01-07T17:47:11 IST" name="validRegistrationTest" finished-at="2020-01-07T17:47:13 IST" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFDSCX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!@#123QWE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Password confirmation does not match password!]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[//*[@id="content"]/form/fieldset[2]/div[2]/div/div]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.RegistrationTest.Register.Demo@7ee955a8]" started-at="2020-01-07T17:47:13 IST" name="tearDown" finished-at="2020-01-07T17:47:14 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webAutomation.RegistrationTest.Register.Demo -->
+    </test> <!-- RegistrationWithoutReenteringPassword-7 -->
+  </suite> <!-- RegistrationTestSuite -->
+</testng-results>
